@@ -3,7 +3,7 @@ provider "aws" {}
 module "s3-website" {
   source = "../../modules/s3-website"
 
-  bucket_name = "mybucket"
+  bucket_name = "aws_s3_bucket"
 }
 
 output "website_endpoint" {
