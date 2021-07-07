@@ -1,3 +1,3 @@
 variable "bucket_name" {
-  description = "mybucket"
+  description = "aws_s3_bucket"
 }
